@@ -5,12 +5,15 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "geopy>=2.4.1",
+    "googlemaps>=4.10.0",
     "langchain-google-genai>=2.1.9",
     "langchain-mcp-adapters>=0.1.9",
     "langchain-openai>=0.3.28",
     "langgraph>=0.6.3",
     "openai>=1.98.0",
     "openai-agents>=0.2.4",
+    "overpy>=0.7",
     "pydantic>=2.11.7",
     "python-dotenv>=1.1.1",
     "pytz>=2025.2",

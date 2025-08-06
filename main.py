@@ -46,7 +46,7 @@ def extract_travel_plan(prompt):
         response_format=TravelPlan,
     )
 
-    return completion.choices[0].message.parsed.origin
+    return completion.choices[0].message.parsed
 
 def main():
     print(extract_travel_plan("I want to travel from Paris to the lake Balkhash in Kazakstan in two days for a week."))
